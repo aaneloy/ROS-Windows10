@@ -86,3 +86,7 @@ The following links will open the Windows store page for each distribution:
 So, Your Distro is now ready, next step is to install and create ubunru environment and run ROS
 
 # Initializing a newly installed distro
+To complete the initialization of your newly installed distro, launch a new instance. You can do this by clicking the "launch" button in the Windows Store app, or launching the distro from the Start menu:
+
+# Setting up a new Linux user account
+Once installation is complete, you will be prompted to create a new user account (and its password)
