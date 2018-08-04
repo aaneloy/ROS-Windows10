@@ -60,5 +60,7 @@ Follow these steps to [check your build](https://docs.microsoft.com/en-us/window
 For earlier versions of Windows 10, follow these instructions using [lxrun.](https://docs.microsoft.com/en-us/windows/wsl/install-win10#for-anniversary-update-and-creators-update-install-using-lxrun)
 
 1. Open the Microsoft Store and choose your favorite Linux distribution.
+<img width="797" alt="store" src="https://user-images.githubusercontent.com/18008644/43679302-e7417a86-9844-11e8-8373-24fa1ec2eaa0.png">
+
 
 
