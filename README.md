@@ -59,9 +59,20 @@ This section is for Windows build 16215 or later.
 Follow these steps to [check your build](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). 
 For earlier versions of Windows 10, follow these instructions using [lxrun.](https://docs.microsoft.com/en-us/windows/wsl/install-win10#for-anniversary-update-and-creators-update-install-using-lxrun)
 
-1. Open the Microsoft Store and choose your favorite Linux distribution.
+1. **Open the Microsoft Store and choose your favorite Linux distribution.**
 
 ![store](https://user-images.githubusercontent.com/18008644/43679334-6cc56a0a-9845-11e8-939b-26542fee0abb.png)
+
+The following links will open the Windows store page for each distribution:
+
+*[Ubuntu](https://www.microsoft.com/en-bd/p/ubuntu/9nblggh4msv6?rtc=1)
+*[OpenSUSE](https://www.microsoft.com/en-bd/p/opensuse-leap-42/9njvjts82tjx?rtc=1)
+*[SLES](https://www.microsoft.com/en-bd/p/suse-linux-enterprise-server-12/9p32mwbh6cns?rtc=1)
+*[Kali Linux](https://www.microsoft.com/en-bd/p/kali-linux/9pkr34tncv07?rtc=1)
+*[Debian GNU/Linux](https://www.microsoft.com/en-bd/p/debian-gnu-linux/9msvkqc78pk6?rtc=1)
+
+
+**From the distro's page, select "Get"**
 
 
 
