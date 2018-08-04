@@ -103,3 +103,48 @@ Most distros ship with an empty/minimal package catalog. I strongly recommend re
 sudo apt update && sudo apt upgrade
 
 ```
+Windows does not automatically update or upgrade your Linux distro(s): This is a task that the Linux users prefer to control themselves.
+
+# Install the WSL and Bash on Windows
+In case you have used the WSL before applying the creators update, you may still have the trusty version (14.04) of Ubuntu for Windows installed. However, you need to upgrade to xenial (16.04). To check which version is actually installed, start an instance of bash and run lsb_release -a. The output should look like
+
+```
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 16.04.2 LTS
+Release:        16.04
+Codename:       xenial
+
+```
+
+
+If it shows an older version, you have to uninstall and then reinstall bash on windows from the windows command line as follows **Warning: This will delete all of your existing data in WSL. Make a backup first**
+
+```
+lxrun /uninstall /full /y
+lxrun /install
+
+
+```
+
+# Install ROS
+
+Since WSL is based on ubuntu, you can follow the official [ros installation guide for ubuntu](http://wiki.ros.org/lunar/Installation/Ubuntu) by the word.
+```
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+sudo apt-get update
+sudo apt-get install -y ros-lunar-desktop-full
+sudo rosdep init
+rosdep update
+
+```
+
+If you want to source ros lunar automatically for ever bash session, then
+
+```
+echo "source /opt/ros/lunar/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+
+```
