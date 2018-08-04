@@ -10,7 +10,7 @@ ROS is not a realtime framework, though it is possible to integrate ROS with rea
 
 # Why ROS 
 
-there are several other goals of the ROS framework:
+Some goals of the ROS framework:
 
 * Thin: ROS is designed to be as thin as possible -- we won't wrap your main() -- so that code written for ROS can be used with other robot software frameworks. A corollary to this is that ROS is easy to integrate with other robot software frameworks: ROS has already been integrated with OpenRAVE, Orocos, and Player.
 
@@ -21,6 +21,13 @@ Language independence: the ROS framework is easy to implement in any modern prog
 
 * Scaling: ROS is appropriate for large runtime systems and for large development processes.
 
+# Operating Systems
+ROS currently only runs on Unix-based platforms. Software for ROS is primarily tested on Ubuntu and Mac OS X systems, though the ROS community has been contributing support for Fedora, Gentoo, Arch Linux and other Linux platforms.
+
+While a port to Microsoft Windows for ROS is possible, it has not yet been fully explored. 
+
+
+# Using Ros in Wondows 10:
 
 # prerequisites:
 ```
