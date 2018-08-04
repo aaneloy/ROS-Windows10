@@ -30,7 +30,8 @@ While a port to Microsoft Windows for ROS is possible, it has not yet been fully
 
 # prerequisites to use ROS in Windows 10:
 ```
-Windows 10 anniversary update or build 1803 (older versions aren't bash enabled, so no hope to with with)
+Windows 10 anniversary update or build 16215 or later 
+(older versions aren't bash enabled, so no hope to with with)
 ```
 
 # Install the Windows Subsystem for Linux
