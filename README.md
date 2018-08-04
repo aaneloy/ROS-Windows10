@@ -27,9 +27,8 @@ ROS currently only runs on Unix-based platforms. Software for ROS is primarily t
 While a port to Microsoft Windows for ROS is possible, it has not yet been fully explored. 
 
 
-# Using Ros in Wondows 10:
 
-# prerequisites:
+# prerequisites to use ROS in Windows 10:
 ```
 Windows 10 anniversary update or build 1803 (older versions aren't bash enabled, so no hope to with with)
 ```
