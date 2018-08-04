@@ -36,7 +36,14 @@ Windows 10 anniversary update or build 1803 (older versions aren't bash enabled,
 # Install the Windows Subsystem for Linux
 Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled:
 
-**1.Open PowerShell as Administrator and run:**
+**1. Open PowerShell as Administrator and run:**
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
+**2. Restart your computer when prompted.**
+
+# Install your Linux Distribution of Choice
+To download and install your preferred distro(s), you have three choices:
+*1. Download and install from the Windows Store (see below)
+2. Download and install from the Command-Line/Script ([read the manual installation instructions])(https://docs.microsoft.com/en-us/windows/wsl/install-manual) 
+3. Download and manually unpack and install (for Windows Server - [instructions here])(https://docs.microsoft.com/en-us/windows/wsl/install-on-server)
