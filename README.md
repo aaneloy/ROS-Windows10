@@ -83,4 +83,6 @@ The following links will open the Windows store page for each distribution:
 
 
 
+So, Your Distro is now ready, next step is to install and create ubunru environment and run ROS
 
+# Initializing a newly installed distro
