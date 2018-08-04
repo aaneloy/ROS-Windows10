@@ -55,6 +55,6 @@ To download and install your preferred distro(s), you have three choices:
 # Install from the Microsoft Store
 ```
 This section is for Windows build 16215 or later. 
-Follow these steps to [check your build](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). 
-For earlier versions of Windows 10, follow these instructions using [lxrun.](https://docs.microsoft.com/en-us/windows/wsl/install-win10#for-anniversary-update-and-creators-update-install-using-lxrun)
+Follow these steps to [check your build] (https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). 
+For earlier versions of Windows 10, follow these instructions using [lxrun.] (https://docs.microsoft.com/en-us/windows/wsl/install-win10#for-anniversary-update-and-creators-update-install-using-lxrun)
 ```
