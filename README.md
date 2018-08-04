@@ -65,15 +65,15 @@ For earlier versions of Windows 10, follow these instructions using [lxrun.](htt
 
 The following links will open the Windows store page for each distribution:
 
-*[Ubuntu](https://www.microsoft.com/en-bd/p/ubuntu/9nblggh4msv6?rtc=1)
+* [Ubuntu](https://www.microsoft.com/en-bd/p/ubuntu/9nblggh4msv6?rtc=1)
 
-*[OpenSUSE](https://www.microsoft.com/en-bd/p/opensuse-leap-42/9njvjts82tjx?rtc=1)
+* [OpenSUSE](https://www.microsoft.com/en-bd/p/opensuse-leap-42/9njvjts82tjx?rtc=1)
 
-*[SLES](https://www.microsoft.com/en-bd/p/suse-linux-enterprise-server-12/9p32mwbh6cns?rtc=1)
+* [SLES](https://www.microsoft.com/en-bd/p/suse-linux-enterprise-server-12/9p32mwbh6cns?rtc=1)
 
-*[Kali Linux](https://www.microsoft.com/en-bd/p/kali-linux/9pkr34tncv07?rtc=1)
+* [Kali Linux](https://www.microsoft.com/en-bd/p/kali-linux/9pkr34tncv07?rtc=1)
 
-*[Debian GNU/Linux](https://www.microsoft.com/en-bd/p/debian-gnu-linux/9msvkqc78pk6?rtc=1)
+* [Debian GNU/Linux](https://www.microsoft.com/en-bd/p/debian-gnu-linux/9msvkqc78pk6?rtc=1)
 
 
 
