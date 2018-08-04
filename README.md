@@ -90,3 +90,16 @@ To complete the initialization of your newly installed distro, launch a new inst
 
 # Setting up a new Linux user account
 Once installation is complete, you will be prompted to create a new user account (and its password)
+
+<img width="674" alt="ubuntuinstall" src="https://user-images.githubusercontent.com/18008644/43679509-03061aa8-9848-11e8-8b1a-91c81dc3d07d.png">
+
+This user account is for the normal non-admin user that you'll be logged-in as by default when launching a distro.
+
+# Update & upgrade your distro's packages
+
+Most distros ship with an empty/minimal package catalog. I strongly recommend regularly updating your package catalog, and upgrading your installed packages using your distro's preferred package manager. On Debian/Ubuntu, you use apt:
+
+```
+sudo apt update && sudo apt upgrade
+
+```
