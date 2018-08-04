@@ -59,3 +59,6 @@ This section is for Windows build 16215 or later.
 Follow these steps to [check your build](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). 
 For earlier versions of Windows 10, follow these instructions using [lxrun.](https://docs.microsoft.com/en-us/windows/wsl/install-win10#for-anniversary-update-and-creators-update-install-using-lxrun)
 
+1. Open the Microsoft Store and choose your favorite Linux distribution.
+
+
