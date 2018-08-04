@@ -50,3 +50,9 @@ To download and install your preferred distro(s), you have three choices:
 2. Download and install from the Command-Line/Script [(read the manual installation instructions)](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
 
 3. Download and manually unpack and install (for Windows Server - [instructions here)](https://docs.microsoft.com/en-us/windows/wsl/install-on-server)
+
+
+# Install from the Microsoft Store
+```
+This section is for Windows build 16215 or later. Follow these steps to [check your build](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). For earlier versions of Windows 10, follow these instructions using [lxrun.](https://docs.microsoft.com/en-us/windows/wsl/install-win10#for-anniversary-update-and-creators-update-install-using-lxrun)
+```
