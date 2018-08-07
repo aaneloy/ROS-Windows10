@@ -46,11 +46,11 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 # Install your Linux Distribution of Choice
 To download and install your preferred distro(s), you have three choices:
 
-**1. Download and install from the Windows Store (see below) **
+**1. Download and install from the Windows Store (see below)**
 
-**2. Download and install from the Command-Line/Script [(read the manual installation instructions)](https://docs.microsoft.com/en-us/windows/wsl/install-manual) **
+**2. Download and install from the Command-Line/Script [(read the manual installation instructions)](https://docs.microsoft.com/en-us/windows/wsl/install-manual)**
 
-**3. Download and manually unpack and install (for Windows Server - [instructions here)](https://docs.microsoft.com/en-us/windows/wsl/install-on-server) **
+**3. Download and manually unpack and install (for Windows Server - [instructions here)](https://docs.microsoft.com/en-us/windows/wsl/install-on-server)**
 
 
 # Install from the Microsoft Store
@@ -95,7 +95,7 @@ Once installation is complete, you will be prompted to create a new user account
 
 This user account is for the normal non-admin user that you'll be logged-in as by default when launching a distro.
 
-# Update & upgrade your distro's packages
+# Update & Upgrade your distro's packages
 
 Most distros ship with an empty/minimal package catalog. I strongly recommend regularly updating your package catalog, and upgrading your installed packages using your distro's preferred package manager. On Debian/Ubuntu, you use apt:
 
