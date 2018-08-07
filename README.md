@@ -1,5 +1,5 @@
 # ROS-Windows10
-All the steps to use Robot Operating System(ROS) in windows 10. 
+All the steps to use Robot Operating System (ROS) in windows 10. 
 
 # What is ROS
 [ROS](http://wiki.ros.org/ROS/Introduction) is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers. ROS is similar in some respects to 'robot frameworks,' such as Player, YARP, Orocos, CARMEN, Orca, MOOS, and Microsoft Robotics Studio.
@@ -46,11 +46,11 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 # Install your Linux Distribution of Choice
 To download and install your preferred distro(s), you have three choices:
 
-1. Download and install from the Windows Store (see below)
+**1. Download and install from the Windows Store (see below)
 
-2. Download and install from the Command-Line/Script [(read the manual installation instructions)](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
+**2. Download and install from the Command-Line/Script [(read the manual installation instructions)](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
 
-3. Download and manually unpack and install (for Windows Server - [instructions here)](https://docs.microsoft.com/en-us/windows/wsl/install-on-server)
+**3. Download and manually unpack and install (for Windows Server - [instructions here)](https://docs.microsoft.com/en-us/windows/wsl/install-on-server)
 
 
 # Install from the Microsoft Store
