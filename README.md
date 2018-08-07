@@ -1,4 +1,4 @@
-# ROS-Windows10
+# ROS-Windows-10
 All the steps to use Robot Operating System (ROS) in windows 10. 
 
 # What is ROS
@@ -141,7 +141,7 @@ rosdep update
 
 ```
 
-If you want to source ros lunar automatically for ever bash session, then
+**If you want to source ros lunar automatically for ever bash session, then**
 
 ```
 echo "source /opt/ros/lunar/setup.bash" >> ~/.bashrc
