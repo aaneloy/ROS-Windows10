@@ -1,14 +1,14 @@
-# ROS-Windows-10
+## ROS-Windows-10
 All the steps to use Robot Operating System (ROS) in windows 10. 
 
-# What is ROS
+## What is ROS
 [ROS](http://wiki.ros.org/ROS/Introduction) is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers. ROS is similar in some respects to 'robot frameworks,' such as Player, YARP, Orocos, CARMEN, Orca, MOOS, and Microsoft Robotics Studio.
 
 The ROS runtime "graph" is a peer-to-peer network of processes (potentially distributed across machines) that are loosely coupled using the ROS communication infrastructure. ROS implements several different styles of communication, including synchronous RPC-style communication over services, asynchronous streaming of data over topics, and storage of data on a Parameter Server. These are explained in greater detail in our Conceptual Overview.
 
 ROS is not a realtime framework, though it is possible to integrate ROS with realtime code. The Willow Garage PR2 robot uses a system called pr2_etherCAT, which transports ROS messages in and out of a realtime process. ROS also has seamless integration with the Orocos Real-time Toolkit.
 
-# Why ROS 
+## Why ROS 
 
 Some goals of the ROS framework:
 
@@ -21,20 +21,20 @@ Language independence: the ROS framework is easy to implement in any modern prog
 
 * Scaling: ROS is appropriate for large runtime systems and for large development processes.
 
-# Operating Systems
+## Operating Systems
 ROS currently only runs on Unix-based platforms. Software for ROS is primarily tested on Ubuntu and Mac OS X systems, though the ROS community has been contributing support for Fedora, Gentoo, Arch Linux and other Linux platforms.
 
 While a port to Microsoft Windows for ROS is possible, it has not yet been fully explored. 
 
-# [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
+## [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
-# prerequisites to use ROS in Windows 10:
+## prerequisites to use ROS in Windows 10:
 ```
 Windows 10 anniversary update or build 16215 or later 
 (older versions aren't bash enabled, so no hope to with with)
 ```
 
-# Install the Windows Subsystem for Linux
+## Install the Windows Subsystem for Linux
 Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled:
 
 **1. Open PowerShell as Administrator and run:**
@@ -43,7 +43,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 ```
 **2. Restart your computer when prompted.**
 
-# Install your Linux Distribution of Choice
+## Install your Linux Distribution of Choice
 To download and install your preferred distro(s), you have three choices:
 
 **1. Download and install from the Windows Store (see below)**
@@ -53,7 +53,7 @@ To download and install your preferred distro(s), you have three choices:
 **3. Download and manually unpack and install (for Windows Server - [instructions here)](https://docs.microsoft.com/en-us/windows/wsl/install-on-server)**
 
 
-# Install from the Microsoft Store
+## Install from the Microsoft Store
 
 **This section is for Windows build 16215 or later.** 
 Follow these steps to [check your build](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). 
@@ -85,17 +85,17 @@ The following links will open the Windows store page for each distribution:
 
 So, Your Distro is now ready, next step is to install and create ubunru environment and run ROS
 
-# Initializing a newly installed distro
+## Initializing a newly installed distro
 To complete the initialization of your newly installed distro, launch a new instance. You can do this by clicking the "launch" button in the Windows Store app, or launching the distro from the Start menu:
 
-# Setting up a new Linux user account
+## Setting up a new Linux user account
 Once installation is complete, you will be prompted to create a new user account (and its password)
 
 <img width="674" alt="ubuntuinstall" src="https://user-images.githubusercontent.com/18008644/43679509-03061aa8-9848-11e8-8b1a-91c81dc3d07d.png">
 
 This user account is for the normal non-admin user that you'll be logged-in as by default when launching a distro.
 
-# Update & Upgrade your distro's packages
+## Update & Upgrade your distro's packages
 
 Most distros ship with an empty/minimal package catalog. I strongly recommend regularly updating your package catalog, and upgrading your installed packages using your distro's preferred package manager. On Debian/Ubuntu, you use apt:
 
@@ -105,7 +105,7 @@ sudo apt update && sudo apt upgrade
 ```
 Windows does not automatically update or upgrade your Linux distro(s): This is a task that the Linux users prefer to control themselves.
 
-# Install the WSL and Bash on Windows
+## Install the WSL and Bash on Windows
 In case you have used the WSL before applying the creators update, you may still have the trusty version (14.04) of Ubuntu for Windows installed. However, you need to upgrade to xenial (16.04). To check which version is actually installed, start an instance of bash and run lsb_release -a. The output should look like
 
 ```
@@ -128,7 +128,7 @@ lxrun /install
 
 ```
 
-# Install ROS
+## Install ROS
 
 Since WSL is based on ubuntu, you can follow the official [ros installation guide for ubuntu](http://wiki.ros.org/lunar/Installation/Ubuntu) by the word.
 ```
